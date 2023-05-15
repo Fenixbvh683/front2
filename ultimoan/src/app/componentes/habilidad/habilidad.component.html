@@ -1,0 +1,68 @@
+<section><!--Inicio de Seccion Fuerzas y Debilidades-->
+
+    <div class="container-flui text-center"><!--Inicio Contenedor Fuerzas y Habilidades-->
+      
+        <div class="row p-3"><!--Inicio titulo Habilidades-->
+          <div class="col-xs-12 col-md-6 col-lg-11">
+                               
+              <h1 class="titulo1">Habilidades</h1>
+              <button type="button" class="btn btn-danger" routerLink="/nuevahab">
+                Nueva Habilidad
+              </button>
+                            
+          </div>
+    
+          <div class="col-xs-12 col-md-6 col-lg-1">
+                               
+              <ul class="list-group list-group-horizontal">
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                  routerLink="/edithabi/Habilidad.id"></i></a></div>
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+               
+              </ul>
+                            
+          </div>
+        </div><!--fin titulo habilidades-->
+          
+        <div class="row p-3" *ngFor="let habilidad of habi"> <!--Inicio Primera habilidad-->
+          <div class="col-xs-12 col-md-6 col-lg-4"><!--Inicio primera columna Primera habilidad-->
+                                 
+            <div class="row"><!--Inicio nombre Primera habilidad-->
+              <div class="col-xs-12 col-md-6 col-lg-12 text-end">
+                 
+                <P class="html">{{habilidad.nombrehab}}</P>
+    
+              </div>
+      
+              </div><!--Fin nombre Primera habilidad-->
+                      
+          </div><!--Fin primera columna Primera habilidad-->
+    
+          <div class="col-xs-12 col-md-6 col-lg-6 p-3"><!--Inicio Segunda columna primera habilidad-->
+                                 
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" [ngClass]="habilidad.colorhab" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" [style.width.%]="habilidad.porcentajehab">{{habilidad.porcentajehab}} %</div>
+            </div>
+                              
+          </div><!--Fin Segunda columna Primera habilidad-->
+             
+          <div class="col-xs-12 col-md-6 col-lg-1"><!--Inicio Tercera columna primera habilidad-->
+    
+            <ul class="list-group list-group-horizontal">
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                data-bs-toggle="modal" data-bs-target="#infohabi1"></i></a></div>
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+             
+            </ul>
+    
+          </div><!--Fin Tercera columna Primera Habilidad-->
+    
+        </div><!--Fin Primera Habilidad-->
+        
+    </div><!--Fin Contenedor Experiencia Laboral-->
+    
+    </section><!--Fin Sección Fuerzas y Debilidades-->

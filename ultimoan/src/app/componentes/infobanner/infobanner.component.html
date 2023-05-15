@@ -1,0 +1,106 @@
+<section><!--Sección Informacion del Banner Inicio-->
+
+    <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-5">
+            
+            <div id="info-img"><img class="profile-image btn-edit" [src]="miPorfolio.fotoimg"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+              data-bs-toggle="modal" data-bs-target="#foto"></i></a></div>
+              
+              <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-11">
+                                     
+                  <h2 class="tipo btn-edit"><strong>{{persona.nombre}} {{persona.apellido}}</strong></h2>
+                                  
+                </div>
+        
+                <div class="col-xs-12 col-md-6 col-lg-1">
+                  
+                    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                      data-bs-toggle="modal" data-bs-target="#nomperfil"></i></a></div>
+                                  
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-11">
+                                     
+                  <h3 class="titulo btn-edit">{{persona.profesion}}</h3>
+                                      
+                </div>
+        
+                <div class="col-xs-12 col-md-6 col-lg-1">
+                   
+                    <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                      data-bs-toggle="modal" data-bs-target="#tituloperfil"></i></a></div>
+                             
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-11">
+                                     
+                  <span><strong>{{persona.ciudad}} - {{persona.pais}}</strong></span>
+                                      
+                </div>
+        
+                <div class="col-xs-12 col-md-6 col-lg-1">
+                                     
+                  <ul class="list-group list-group-horizontal">
+        
+                    <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                      data-bs-toggle="modal" data-bs-target="#ciudadper"></i></a></div>
+                      
+                  </ul>
+                                  
+                </div>
+              </div>
+              
+                 <div>
+                  <button type="button" class="btn btn-primary">Tengo Interes en</button>
+                  <button type="button" class="btn btn-light">Añadir Sección</button>
+                  <button type="button" class="btn btn-light">Más</button>
+                  <a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                    data-bs-toggle="modal" data-bs-target="#botones3"></i></a>
+                </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-7 text-end">
+
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-11">
+                                   
+                <div><img [src]="miPorfolio.logodosap" alt="Logo Argentina Programa" class="w-110 letranegra logo2"></div>
+                                
+              </div>
+      
+              <div class="col-xs-12 col-md-6 col-lg-1">
+                   
+                  <div class="btn-edit modi"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                    data-bs-toggle="modal" data-bs-target="#infoperderap"></i></a></div>
+                               
+              </div>
+            </div>
+
+
+            <div class="row">
+              
+              <div class="col-xs-12 col-md-6 col-lg-11">
+                   
+                <img [src]="miPorfolio.logouticban" alt="Logo UTIC" class="w-110 utic"><span class="utic2"><strong>{{persona.estuinfo2}}</strong></span>
+                               
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-1">
+                   
+                <div class="btn-edit"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                  data-bs-toggle="modal" data-bs-target="#infoperderutic"></i></a></div>
+                             
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+</section><!--Sección Informacion del Banner Final-->

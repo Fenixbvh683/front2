@@ -1,0 +1,24 @@
+<div class = "container fluid" *ngIf="habi">
+    <div class ="row m-5">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <h1>Formulario de Ingreso Nueva Habilidad</h1>
+                <div>
+                    <label for="nombrehab">Nombre de la Habilidad</label>
+                    <input type="text" class="form-control" id="nombrehab" name="nombrehab" [(ngModel)]="habi.nombrehab"required>
+                </div>
+                <div>
+                    <label for="porcenytajehab">Porcentaje de Conocimiento</label>
+                    <input type="text" class="form-control" id="porcentajehab" name="porcentajehab" [(ngModel)]="habi.porcentajehab"required>
+                </div>
+                <div>
+                    <label for="colorhab">Ciudad donde Estudio</label>
+                    <input type="text" class="form-control" id="colorhab" name="colorhab" [(ngModel)]="habi.colorhab"required>
+                </div>
+                <button class="btn btn-primary">
+                        Agregar Habilidad 
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

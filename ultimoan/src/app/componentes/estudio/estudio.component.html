@@ -1,0 +1,83 @@
+<section><!--Inicio de Seccion Educacion-->
+
+    <div class="container-flui text-center"><!--Inicio Contenedor Educacion-->
+      
+        <div class="row p-3"><!--Inicio titulo Educacion-->
+          <div class="col-xs-12 col-md-6 col-lg-11">
+                               
+              <h1 class="titulo1">Estudios Realizados</h1>
+              <button type="button" class="btn btn-danger" routerLink="/nuevoest">
+                Nuevo Estudio
+              </button>
+                            
+          </div>
+    
+          <div class="col-xs-12 col-md-6 col-lg-1">
+                               
+              <ul class="list-group list-group-horizontal">
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                data-bs-toggle="modal" data-bs-target="#tituesture"></i></a></div>
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+               
+              </ul>
+                            
+          </div>
+        </div><!--fin titulo Educacion-->
+          
+        <div class="row p-3" *ngFor="let estudio of est"> <!--Inicio Primer Estudio-->
+          <div class="col-xs-12 col-md-6 col-lg-3"><!--Inicio primera columna Primer Estudio-->
+                                 
+            <div class="row"><!--Inicio Logo Primer Estudio-->
+              <div class="col-xs-12 col-md-6 col-lg-8">
+                 
+                <img class="image"[src]="estudio.imgest" alt="Logo Dr. Raul Peña">
+    
+              </div>
+              
+      
+              <div class="col-xs-12 col-md-6 col-lg-4">
+      
+                <ul class="list-group list-group-horizontal">
+    
+                  <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                    routerLink="/editestu/Estudio.id"></i></a></div>
+    
+                  <div class="btn-edit m-3"><a href="#" class="btn-ringt" (click)="delete(estudio.idest)"><i class="fa-solid fa-x"></i></a></div>
+                 
+                </ul>
+      
+              </div>
+      
+            </div><!--Fin logo Primer Estudio-->
+                      
+          </div><!--Fin primera columna Primer Estudio-->
+    
+          <div class="col-xs-12 col-md-6 col-lg-8"><!--Inicio Segunda columna Primer Estudio-->
+                                 
+            <h4 class="institu"><i><strong>{{estudio.nombreest}}</strong></i></h4>
+            <h5 class="bajo">{{estudio.descripcionest}}</h5>
+            <h6 class="bajo">{{estudio.ciudadest}}</h6>
+                              
+          </div><!--Fin Segunda columna Primer Estudio-->
+             
+          <div class="col-xs-12 col-md-6 col-lg-1"><!--Inicio Tercera columna Primer Estudio-->
+    
+            <ul class="list-group list-group-horizontal uticla">
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                data-bs-toggle="modal" data-bs-target="#infoestu1"></i></a></div>
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+             
+            </ul>
+    
+          </div><!--Fin Tercera columna Primer Estudio-->
+    
+        </div><!--Fin Primer Estudio-->
+    
+        
+    </div><!--Fin Contenedor Educacion-->
+    
+    </section><!--Fin Sección Educacion-->

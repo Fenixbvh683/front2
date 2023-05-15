@@ -1,0 +1,101 @@
+/*.profile{
+    background-size: 5rem;
+    
+}*/
+
+
+
+
+
+  
+.cuerpo{
+
+    background-color: beige;
+}
+
+
+
+
+/*div#info-action {
+    display: flex;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20prem;
+    box-sizing: border-box;
+   
+}*/
+
+/*section.panel, section.panelinfo{
+    margin-top: 6rem;
+}*/
+
+/*nabvar*/
+/*.modal-content,.modal-footer, .modal.fade, .modal-header, .modal-body{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.modal-dialog{
+    color:rgb(18, 2, 238);
+    font-family: 'Shrikhand', cursive;
+    font-size: xx-large;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+.titulo1{
+    font-family: 'Carter One', cursive;
+    font-size:  4rem;
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Shrikhand&display=swap');
+.tipo{
+font-family: 'Fredoka One', cursive;
+font-size: 2.5rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.titulo{
+    font-family: 'Great Vibes', cursive; 
+}
+/*$container-max-widths:(
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);*/
+
+/*#portada{
+        
+    background-image: url(../img/tecno.png);
+    background-position: center;
+    background-size: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    z-index: 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+  }*/
+ 
+
+  
+  
+
+  
+
+
+
+ 
+
+  /*Inicio de Progres Bar Mitades*/
+
+  

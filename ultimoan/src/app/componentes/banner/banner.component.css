@@ -1,0 +1,14 @@
+.banner{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    padding: 1% 0% 1% 1%;
+    z-index: 0;
+    background-repeat: no-repeat;
+    
+}
+
+/*
+.margen{
+    padding-top: 40rem;
+}*/

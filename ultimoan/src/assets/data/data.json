@@ -1,0 +1,152 @@
+{
+    "logoap":"./../assets/img/logoap2.png",
+    "bannerimg":"../../../assets/img/codigoblan.png",
+    "fotoimg":"../../../assets/img/JL3.png",
+    "nombre":"Jorge A. Lesme A.",
+    "puesto":"Desarrollador FullStack Jr.",
+    "ciudad":"Buenos Aires - Argentina",
+    "logodosap":"../../../assets/img/logoap2.png",
+    "logouticban":"../../../assets/img/utic.png",
+    "utic":"UTIC",
+    
+    "tituacerca":"Acerca de Mi",
+    
+    "acercade":"Gracias a los conocimientos adquiridos, me enfoco el la realizacion de su proyecto y sacando lo mejor le ofrecemos un trabajo completo serio y con excelencia, para que pueda tener una mejor aceptacion con las personas que desee captar su atencion. Para que de esta manera no solo sea algo prolijo y estetico sino que pueda captar mas clientes para su empresa.",
+
+    "tituestu":"Estudios Realizados",
+
+"estudios":[
+
+{
+    "ide": 1,
+    "logoinstitu":"../../../assets/img/raulpeña.png",
+    "nomInstitu":"Colegio Nacional E.M.D. Dr. Raul Peña",
+    "tituinstitu":"Bachiller en Ciencias y Letras",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+
+{
+    "ide": 2,
+    "logoinstitu":"../../../assets/img/raulpeña.png",
+    "nomInstitu":"Colegio Nacional E.M.D. Dr. Raul Peña",
+    "tituinstitu":"Bachiller Tecnico en Informatica",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+
+{
+    "ide": 3,
+    "logoinstitu":"../../../assets/img/utic.png",
+    "nomInstitu":"Universsidad Tecnologica Intercontinental - UTIC",
+    "tituinstitu":"Ingenieria en Sistemas Informaticos",
+    "ciuintitu":"Caacupé - Paraguay"
+},
+
+{
+    "ide": 4,
+    "logoinstitu":"../../../assets/img/logoap2.png",
+    "nomInstitu":"Argentina Programa",
+    "tituinstitu":"Desarrollador FullStack Jr.",
+    "ciuintitu":"Buenos Aires - Argentina"
+}
+],
+
+"tituexpe":"Experiencias Laborales",
+
+"trabajo":[
+
+    {
+        "ide": 1,
+        "logoempre":"../../../assets/img/repacompu.png",
+        "emprenom": "Reparacion de Computadoras MANIDELA",
+        "puestoempre":"Tecnico en Reparacion de PC",
+        "ciuempre":"Buenos Aires - Argentina"
+    },
+    
+    {
+        "ide": 2,
+        "logoempre":"../../../assets/img/repacel.png",
+        "emprenom": "Reparacion de Celulares MANIDELA",
+        "puestoempre":"Tecnico en Reparacion de Celulares",
+        "ciuempre":"Buenos Aires - Argentina"
+    },
+    
+    {
+        "ide": 3,
+        "logoempre":"../../../assets/img/fullstack.png",
+        "emprenom": "Desarrollador FullStack",
+        "puestoempre":"Desarrollador de Porfolios WEB",
+        "ciuempre":"Buenos Aires - Argentina"
+    }
+        
+    ],
+
+"tituhabi":"Habilidades",
+
+    "habilidad":[
+
+        {
+            "ide": 1,
+            "nomhabi":"HTML",
+            "porcehabi": 25,
+            "color": "bg-danger"
+            
+        },
+        
+        {
+            "ide": 2,
+            "nomhabi":"GIT y GITHUB",
+            "porcehabi": 70,
+            "color": "bg-warning"
+            
+        },
+        
+        {
+            "ide": 3,
+            "nomhabi":"CSS",
+            "porcehabi": 30,
+            "color": "bg-info"
+            
+        },
+        
+        {
+            "ide": 4,
+            "nomhabi":"ANGULAR",
+            "porcehabi": 25,
+            "color": "bg-success"
+            
+        },
+        {
+            "ide": 5,
+            "nomhabi":"My SQL",
+            "porcehabi": 20,
+            "color": "bg-primary"
+            
+        }
+        ],
+
+"tituproye":"Proyectos",
+
+        "proyecto":[
+            {
+            "ide":1,
+            "logoproye":"../../../assets/img/proye.png",
+            "nomproye":"Proyecto Actual",
+            "descriproye":"Primer proyecto exitoso que sumo integrantes y usuarios de nuestros servicios de excelente calidad.",
+            "urlproye":"Visitar Proyecto"
+            },
+            {
+                "ide":2,
+                "logoproye":"../../../assets/img/azul.png",
+                "nomproye":"En Proyecto",
+                "descriproye":"Espacios listos para los proyectos que que estan siendo desarrollados actualmente, pero podemos agregar mas lugares para agregar la de TU EMPRESA.",
+                "urlproye":"Link a Futuro Proyecto"
+                },
+                {
+                    "ide":3,
+                    "logoproye":"../../../assets/img/rojo.png",
+                    "nomproye":"En Proyecto",
+                    "descriproye":"Espacios listos para los proyectos que que estan siendo desarrollados actualmente, pero podemos agregar mas lugares para agregar la de TU EMPRESA.",
+                    "urlproye":"Link a Futuro Proyecto"
+                    }
+        ]
+}

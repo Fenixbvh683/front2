@@ -1,0 +1,28 @@
+<div class = "container fluid" +ngIf="expelab">
+    <div class ="row m-5">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <h1>Formulario de Ingreso Nueva Experienica</h1>
+                <div>
+                    <label for="nombreexp">Nombre de la Empresa</label>
+                    <input type="text" class="form-control" id="nombreexp" name="nombreexp" [(ngModel)]="expelab.nombreexp"required>
+                </div>
+                <div>
+                    <label for="descripcionexp">Puesto Desempeñado</label>
+                    <input type="text" class="form-control" id="descripcionexp" name="descripcionexp" [(ngModel)]="expelab.descripcionexp"required>
+                </div>
+                <div>
+                    <label for="ciudadexp">Ciudad donde desempeño</label>
+                    <input type="text" class="form-control" id="ciudadexp" name="ciudadexp" [(ngModel)]="expelab.ciudadexp"required>
+                </div>
+                <div>
+                    <label for="imgexp">Logo de la Empresa</label>
+                    <input type="text" class="form-control" id="imgdexp" name="imgexp" [(ngModel)]="expelab.imgexp"required>
+                </div>
+                <button class="btn btn-primary">
+                        Actualizar 
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

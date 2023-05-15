@@ -1,0 +1,28 @@
+<div class = "container fluid" *ngIf="estu">
+    <div class ="row m-5">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <h1>Formulario de Ingreso Nuevo Estuio</h1>
+                <div>
+                    <label for="nombreest">Nombre de la Institucion</label>
+                    <input type="text" class="form-control" id="nombreest" name="nombreest" [(ngModel)]="estu.nombreest"required>
+                </div>
+                <div>
+                    <label for="descripcionexp">Estudio Realizado></label>
+                    <input type="text" class="form-control" id="descripcionest" name="descripcionest" [(ngModel)]="estu.descripcionest"required>
+                </div>
+                <div>
+                    <label for="ciudadest">Ciudad donde Estudio</label>
+                    <input type="text" class="form-control" id="ciudadest" name="ciudadexp" [(ngModel)]="estu.ciudadest"required>
+                </div>
+                <div>
+                    <label for="imgest">Logo de la Institucion</label>
+                    <input type="text" class="form-control" id="imgdest" name="imgest" [(ngModel)]="estu.imgest"required>
+                </div>
+                <button class="btn btn-primary">
+                      Modificar 
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

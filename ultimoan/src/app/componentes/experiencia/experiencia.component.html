@@ -1,0 +1,83 @@
+<section><!--Inicio de Seccion Experiencia Laboral-->
+
+    <div class="container-flui text-center"><!--Inicio Contenedor Experiencia Laboral-->
+      
+        <div class="row p-3"><!--Inicio titulo Experiencia Laboral-->
+          <div class="col-xs-12 col-md-6 col-lg-11">
+                               
+              <h1 class="titulo1">Experiencias Laborales</h1>
+              <div class="col - lg-2">
+                <button type="button" class="btn btn-danger" routerLink="/nuevaexp">
+                  Nueva Experiencia
+                </button>
+              </div>
+                            
+          </div>
+    
+          <div class="col-xs-12 col-md-6 col-lg-1">
+                               
+              <ul class="list-group list-group-horizontal">
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                data-bs-toggle="modal" data-bs-target="#tituexplabo"></i></a></div>
+    
+                <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+               
+              </ul>
+                            
+          </div>
+        </div><!--fin titulo Experiencia Laboral-->
+          
+        <div class="row p-3" *ngFor="let experiencia of expe"><!--Inicio Primera Experiencia Laboral-->
+          <div class="col-xs-12 col-md-6 col-lg-3"><!--Inicio primera columna Primera Eperiencia Laboral-->
+                                 
+            <div class="row"><!--Inicio Logo Primera Experiencia Laboral-->
+              <div class="col-xs-12 col-md-6 col-lg-8">
+                 
+                <img class="logo1exp" [src]="experiencia.imgexp" alt="Logo computadoras">
+    
+              </div>
+      
+              <div class="col-xs-12 col-md-6 col-lg-4">
+      
+                  <ul class="list-group list-group-horizontal uticla">
+      
+                    <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                        data-bs-toggle="modal" data-bs-target="#expla1logo"></i></a></div>
+      
+                    <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa-solid fa-x"></i></a></div>
+                 
+                  </ul>
+      
+              </div>
+      
+            </div><!--Fin logo Primera Experiencia Laboral-->
+                      
+          </div><!--Fin primera columna Primer Estudio-->
+    
+          <div class="col-xs-12 col-md-6 col-lg-8"><!--Inicio Segunda columna Primer Estudio-->
+                                 
+            <h4 class="institu"><i><strong>{{experiencia.nombreexp}}</strong></i></h4>
+            <h5 class="bajo">{{experiencia.descripcionexp}}</h5>
+            <h6 class="bajo">{{experiencia.ciudadexp}}</h6>
+                              
+          </div><!--Fin Segunda columna Primera Experiencia Laboral-->
+             
+          <div class="col-xs-12 col-md-6 col-lg-1"><!--Inicio Tercera columna Experiencia Laboral-->
+    
+            <ul class="list-group list-group-horizontal uticla">
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt"><i class="fa fa-pen" type="button" 
+                routerLink="/editexp/Experiencia.id"></i></a></div>
+    
+              <div class="btn-edit m-3"><a href="#" class="btn-ringt" (click)="delete(experiencia.idexp)"><i class="fa-solid fa-x" ></i></a></div>
+             
+            </ul>
+    
+          </div><!--Fin Tercera columna Primera Experiencia Laboral-->
+    
+        </div><!--Fin Primera Experiencia Laboral-->
+              
+    </div><!--Fin Contenedor Experiencia Laboral-->
+    
+    </section><!--Fin Sección Experiencia Laboral-->
